@@ -1,0 +1,49 @@
+{
+  "cluster": "mainnet-beta",
+  "live": true,
+  "sender": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+  "senderBucket": "liquidity",
+  "targetUi": 800000000,
+  "streamAmountUi": 798482883,
+  "feeUi": 1517117,
+  "feeFrom": "seasons",
+  "senderHaveUi": 183500400,
+  "projectedUi": 983500400,
+  "steps": [
+    {
+      "fromBucket": "community",
+      "fromWallet": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "amountUi": 250000000
+    },
+    {
+      "fromBucket": "treasury",
+      "fromWallet": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "amountUi": 200000000
+    },
+    {
+      "fromBucket": "ecosystem",
+      "fromWallet": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "amountUi": 150000000
+    },
+    {
+      "fromBucket": "seasons",
+      "fromWallet": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "amountUi": 100000000
+    },
+    {
+      "fromBucket": "team",
+      "fromWallet": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "amountUi": 100000000
+    },
+    {
+      "fromBucket": "team",
+      "amountUi": 100000000,
+      "signature": "2gcdpvGdXhh2wXQyCYLV4UANh7MfdsemfEgbAxVoEYU1h1h4DESfeb69g2mhyG7xseqHhycygu5PTV2uBvQnQRCb",
+      "resumed": true
+    }
+  ],
+  "vaultPda": "Eg6JF94HfYLTDrQFMKcoYbj11MWGy6w4sVzsiggavYuF",
+  "resumed": true,
+  "finalUi": 983500400,
+  "lockedGatheredUi": 800000000
+}

@@ -1,0 +1,8 @@
+{
+  "mint": "REPLACE_WITH_MINT_ADDRESS",
+  "decimals": 9,
+  "recipients": [
+    { "address": "REPLACE_WITH_RECIPIENT_1", "amount": 1000 },
+    { "address": "REPLACE_WITH_RECIPIENT_2", "amount": 500 }
+  ]
+}

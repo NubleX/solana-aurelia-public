@@ -1,0 +1,99 @@
+{
+  "cluster": "mainnet-beta",
+  "live": false,
+  "positions": [
+    {
+      "bucket": "community",
+      "wallet": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "targetUi": 250000000,
+      "currentUi": 0,
+      "deltaUi": 250000000,
+      "canSign": true
+    },
+    {
+      "bucket": "liquidity",
+      "wallet": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "targetUi": 184000000,
+      "currentUi": 883500400,
+      "deltaUi": -699500400,
+      "canSign": true
+    },
+    {
+      "bucket": "treasury",
+      "wallet": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "targetUi": 200000000,
+      "currentUi": 0,
+      "deltaUi": 200000000,
+      "canSign": true
+    },
+    {
+      "bucket": "ecosystem",
+      "wallet": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "targetUi": 150000000,
+      "currentUi": 0,
+      "deltaUi": 150000000,
+      "canSign": true
+    },
+    {
+      "bucket": "seasons",
+      "wallet": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "targetUi": 100000000,
+      "currentUi": 0,
+      "deltaUi": 100000000,
+      "canSign": true
+    },
+    {
+      "bucket": "team",
+      "wallet": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "targetUi": 100000000,
+      "currentUi": 100000000,
+      "deltaUi": 0,
+      "canSign": true
+    },
+    {
+      "bucket": "payer",
+      "wallet": "Gh8vjMdf71p7HcbZbeXcEFKg6kve6pwmiBggbJhK5roS",
+      "targetUi": 0,
+      "currentUi": 0,
+      "deltaUi": 0,
+      "canSign": true
+    }
+  ],
+  "steps": [
+    {
+      "from": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "to": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "amountUi": 250000000,
+      "fromBucket": "liquidity",
+      "toBucket": "community"
+    },
+    {
+      "from": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "to": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "amountUi": 200000000,
+      "fromBucket": "liquidity",
+      "toBucket": "treasury"
+    },
+    {
+      "from": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "to": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "amountUi": 150000000,
+      "fromBucket": "liquidity",
+      "toBucket": "ecosystem"
+    },
+    {
+      "from": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "to": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "amountUi": 99500400,
+      "fromBucket": "liquidity",
+      "toBucket": "seasons"
+    },
+    {
+      "from": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "to": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "amountUi": 499600,
+      "fromBucket": "liquidity",
+      "toBucket": "seasons"
+    }
+  ]
+}

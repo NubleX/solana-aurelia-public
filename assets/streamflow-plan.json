@@ -1,0 +1,71 @@
+{
+  "cluster": "mainnet-beta",
+  "live": false,
+  "mint": "AoPZi6gXYKArxUdAk5aGtYsq4XjRGpotq5xVkvkZr3dK",
+  "start": 1788834178,
+  "period": 2592000,
+  "duration": 62208000,
+  "cliff": 1788834178,
+  "plans": [
+    {
+      "bucket": "community",
+      "sender": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "recipient": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "amountUi": 250000000,
+      "amountPerPeriodUi": 10416666,
+      "durationMonths": 24,
+      "periodSecs": 2592000,
+      "cliffMonths": 0,
+      "cancelableBySender": false,
+      "name": "AURA Community & Airdrops 24m"
+    },
+    {
+      "bucket": "treasury",
+      "sender": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "recipient": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "amountUi": 200000000,
+      "amountPerPeriodUi": 8333333,
+      "durationMonths": 24,
+      "periodSecs": 2592000,
+      "cliffMonths": 0,
+      "cancelableBySender": false,
+      "name": "AURA Treasury / DAO 24m"
+    },
+    {
+      "bucket": "ecosystem",
+      "sender": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "recipient": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "amountUi": 150000000,
+      "amountPerPeriodUi": 6250000,
+      "durationMonths": 24,
+      "periodSecs": 2592000,
+      "cliffMonths": 0,
+      "cancelableBySender": false,
+      "name": "AURA Ecosystem & Rewards 24m"
+    },
+    {
+      "bucket": "seasons",
+      "sender": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "recipient": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "amountUi": 100000000,
+      "amountPerPeriodUi": 4166666,
+      "durationMonths": 24,
+      "periodSecs": 2592000,
+      "cliffMonths": 0,
+      "cancelableBySender": false,
+      "name": "AURA Next drop / seasons reserve 24m"
+    },
+    {
+      "bucket": "team",
+      "sender": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "recipient": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "amountUi": 100000000,
+      "amountPerPeriodUi": 4166666,
+      "durationMonths": 24,
+      "periodSecs": 2592000,
+      "cliffMonths": 0,
+      "cancelableBySender": false,
+      "name": "AURA Team / Dev 24m"
+    }
+  ]
+}

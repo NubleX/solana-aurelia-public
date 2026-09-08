@@ -1,0 +1,146 @@
+{
+  "name": "Aurelia",
+  "symbol": "AURA",
+  "decimals": 9,
+  "totalSupply": 1000000000,
+  "description": "Aurelia - art, cosmic horror, and community on Solana. Fixed supply. No mint. No freeze.",
+  "metadataUri": "https://idarti.com/aurelia/chain/metadata.json",
+  "imagePath": "assets/aura-logo1.png",
+  "vesting": {
+    "provider": "streamflow",
+    "custody": "squads-v4",
+    "lockedPercent": 80,
+    "lockedAmount": 800000000,
+    "streamAmount": 798482883,
+    "streamflowFeeAmount": 1517117,
+    "streamflowFeeFrom": "seasons",
+    "streamflowFeeBps": 19,
+    "circulatingPercent": 20,
+    "circulatingAmount": 200000000,
+    "durationMonths": 24,
+    "period": "monthly",
+    "cliffMonths": 0,
+    "cliffAmount": 0,
+    "cancelableBySender": false,
+    "canTopup": false,
+    "buckets": [
+      "community",
+      "treasury",
+      "ecosystem",
+      "seasons",
+      "team"
+    ],
+    "monthlyUnlockTotal": 33270120,
+    "lastMonthUnlockTotal": 33270123,
+    "note": "80% (800M) leaves the five locked wallets for one non-cancelable Streamflow stream to a Squads v4 vault (2-of-3: payer/team/treasury). Deposited vest V ≈ 798.482883M; Streamflow 0.19% fee F ≈ 1.517117M is paid from seasons inside that 800M (not from circulating/LP). Monthly Squads vault txs split unlocks by post-fee weights. Liquidity 200M stays outside."
+  },
+  "allocations": [
+    {
+      "bucket": "community",
+      "label": "Community & Airdrops",
+      "percent": 25,
+      "amount": 250000000,
+      "wallet": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "release": {
+        "style": "vesting",
+        "provider": "streamflow",
+        "custody": "squads-v4",
+        "durationMonths": 24,
+        "amountPerMonth": 10416666,
+        "lastMonthAmount": 10416682,
+        "cliffMonths": 0,
+        "note": "Linear monthly drip over 24 months via Streamflow into Squads vault, then 2-of-3 split. Not a 25% day-one unlock."
+      }
+    },
+    {
+      "bucket": "liquidity",
+      "label": "Liquidity (LP burned/locked)",
+      "percent": 20,
+      "amount": 200000000,
+      "wallet": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+      "release": {
+        "of": "circulating",
+        "circulatingAtTge": 200000000,
+        "tgePercentOfCirculating": 8,
+        "tgeAmount": 16000000,
+        "restOfBucket": 184000000,
+        "restDurationMonths": 24,
+        "note": "Outside the 800M Streamflow lock. Circulating float at TGE = this 200M bucket. Pool seed = 8% of circulating = 16M AURA (already seeded + LP locked). Remaining 184M added over 24 months as depth - not a day-one dump of the full 200M. Not used to pay Streamflow fees."
+      }
+    },
+    {
+      "bucket": "treasury",
+      "label": "Treasury / DAO",
+      "percent": 20,
+      "amount": 200000000,
+      "wallet": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "release": {
+        "style": "vesting",
+        "provider": "streamflow",
+        "custody": "squads-v4",
+        "durationMonths": 24,
+        "amountPerMonth": 8333333,
+        "lastMonthAmount": 8333341,
+        "cliffMonths": 0,
+        "note": "Linear monthly release over 24 months via Squads vault split. Governance may burn claimed tokens; cannot accelerate the Streamflow schedule."
+      }
+    },
+    {
+      "bucket": "ecosystem",
+      "label": "Ecosystem & Rewards",
+      "percent": 15,
+      "amount": 150000000,
+      "wallet": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "release": {
+        "style": "vesting",
+        "provider": "streamflow",
+        "custody": "squads-v4",
+        "durationMonths": 24,
+        "amountPerMonth": 6250000,
+        "lastMonthAmount": 6250000,
+        "cliffMonths": 0,
+        "note": "Linear monthly release over 24 months for staking, partnerships, and playground rewards."
+      }
+    },
+    {
+      "bucket": "seasons",
+      "label": "Next drop / seasons reserve",
+      "percent": 10,
+      "amount": 98482883,
+      "wallet": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "release": {
+        "style": "vesting",
+        "provider": "streamflow",
+        "custody": "squads-v4",
+        "durationMonths": 24,
+        "amountPerMonth": 4103453,
+        "lastMonthAmount": 4103464,
+        "cliffMonths": 0,
+        "gatherAmount": 100000000,
+        "streamflowFeeAmount": 1517117,
+        "note": "Wallet still contributes 100M to the 800M gather. Streamflow 0.19% fee (~1.517M) is paid from this bucket; vested seasons slice is ~98.482883M over 24 months."
+      }
+    },
+    {
+      "bucket": "team",
+      "label": "Team / Dev",
+      "percent": 10,
+      "amount": 100000000,
+      "wallet": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "release": {
+        "style": "vesting",
+        "provider": "streamflow",
+        "custody": "squads-v4",
+        "durationMonths": 24,
+        "amountPerMonth": 4166666,
+        "lastMonthAmount": 4166682,
+        "cliffMonths": 0,
+        "note": "Linear monthly vest over 24 months via non-cancelable Streamflow into Squads. Proves the team cannot dump the 10% allocation alone (2-of-3)."
+      }
+    }
+  ],
+  "authorities": {
+    "revokeMint": true,
+    "revokeFreeze": true
+  }
+}

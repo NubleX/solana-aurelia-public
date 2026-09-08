@@ -1,0 +1,63 @@
+{
+  "name": "Aurelia",
+  "symbol": "AURA",
+  "description": "Aurelia - art, cosmic horror, and community on Solana. Fixed supply. No mint. No freeze. World and gallery stay free; the token sits next to the art, not on top of it.",
+  "image": "https://idarti.com/aurelia/chain/logo.png",
+  "animation_url": "https://idarti.com/aurelia/video/teaser_1.mp4",
+  "external_url": "https://idarti.com/aurelia/video/",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Art"
+    },
+    {
+      "trait_type": "Supply",
+      "value": "Fixed"
+    },
+    {
+      "trait_type": "Mint",
+      "value": "Disabled"
+    },
+    {
+      "trait_type": "Freeze",
+      "value": "Disabled"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Solana"
+    }
+  ],
+  "tags": [
+    "art",
+    "community",
+    "worldbuilding",
+    "cosmichorror",
+    "surrealism",
+    "solana"
+  ],
+  "extensions": {
+    "website": "https://idarti.com/",
+    "instagram": "https://www.instagram.com/id.artcraft/",
+    "linkedin": "https://www.linkedin.com/in/igordunaev/",
+    "github": "https://github.com/NubleX/",
+    "video": "https://idarti.com/aurelia/video/",
+    "roadmap": "https://idarti.com/aurelia/chain/roadmap.html"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://idarti.com/aurelia/chain/logo.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://idarti.com/aurelia/video/teaser_1.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "uri": "https://idarti.com/aurelia/video/",
+        "type": "text/html"
+      }
+    ],
+    "category": "image"
+  }
+}

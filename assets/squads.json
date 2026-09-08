@@ -1,0 +1,34 @@
+{
+  "cluster": "mainnet-beta",
+  "multisigPda": "9NqPHfMETgEWiA4WNh8PANLgL1f36rcKJQoFhcK8SWv2",
+  "vaultPda": "Eg6JF94HfYLTDrQFMKcoYbj11MWGy6w4sVzsiggavYuF",
+  "vaultIndex": 0,
+  "createKey": "6YJbCQ4cohjRxwozyxADPFqvgBpYmrbifCzkKYecGCWM",
+  "threshold": 2,
+  "configAuthority": null,
+  "members": [
+    {
+      "role": "payer",
+      "pubkey": "Gh8vjMdf71p7HcbZbeXcEFKg6kve6pwmiBggbJhK5roS"
+    },
+    {
+      "role": "team",
+      "pubkey": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C"
+    },
+    {
+      "role": "treasury",
+      "pubkey": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY"
+    }
+  ],
+  "vaultAta": "4VDCnzr2UYoFgaefVkaFEJKJVP3MT7z3K2J8e6gZo4Gn",
+  "dryRun": false,
+  "createTx": "4jaovkgRTqh5k4dWfgvML3oUqvKXUyPKF7KCkM3H9kNqSLoWMMSEgWbdCxGAu6dAoYLGFP8rtsWgHq6tHxTfLAsM",
+  "streamflow": {
+    "metadataId": "kHDvewaXdmS5UtVv7GHE3R44EyeqY4YrFiXKJBWd9ha",
+    "txId": "2JL6xweBoHMS4BoFgcAjdwrpuFKnFYCeFPaarmQS3pVHD8d3tPJF2WwNxBpttoCKCmmk1bTutebkCQRdkqdxVTRV",
+    "recipientVault": "Eg6JF94HfYLTDrQFMKcoYbj11MWGy6w4sVzsiggavYuF",
+    "streamAmountUi": 798482883,
+    "feeUi": 1517117,
+    "feeFrom": "seasons"
+  }
+}

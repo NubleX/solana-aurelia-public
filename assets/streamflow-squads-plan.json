@@ -1,0 +1,58 @@
+{
+  "cluster": "mainnet-beta",
+  "live": true,
+  "mint": "AoPZi6gXYKArxUdAk5aGtYsq4XjRGpotq5xVkvkZr3dK",
+  "recipientVault": "Eg6JF94HfYLTDrQFMKcoYbj11MWGy6w4sVzsiggavYuF",
+  "vaultAta": "4VDCnzr2UYoFgaefVkaFEJKJVP3MT7z3K2J8e6gZo4Gn",
+  "multisigPda": "9NqPHfMETgEWiA4WNh8PANLgL1f36rcKJQoFhcK8SWv2",
+  "sender": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+  "senderBucket": "liquidity",
+  "streamAmountUi": 798482883,
+  "streamAmountRaw": "798482882523205909",
+  "feeUi": 1517117,
+  "feeRaw": "1517117476794091",
+  "feeFrom": "seasons",
+  "gatherUi": 800000000,
+  "start": 1788842090,
+  "cliff": 1788842090,
+  "period": 2592000,
+  "durationMonths": 24,
+  "amountPerMonth": 33270120,
+  "automaticWithdrawal": true,
+  "cancelableBySender": false,
+  "transferableBySender": false,
+  "shares": [
+    {
+      "bucket": "community",
+      "wallet": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "vestUi": 250000000,
+      "gatherUi": 250000000
+    },
+    {
+      "bucket": "treasury",
+      "wallet": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "vestUi": 200000000,
+      "gatherUi": 200000000
+    },
+    {
+      "bucket": "ecosystem",
+      "wallet": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "vestUi": 150000000,
+      "gatherUi": 150000000
+    },
+    {
+      "bucket": "seasons",
+      "wallet": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "vestUi": 98482883,
+      "gatherUi": 100000000
+    },
+    {
+      "bucket": "team",
+      "wallet": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "vestUi": 100000000,
+      "gatherUi": 100000000
+    }
+  ],
+  "metadataId": "kHDvewaXdmS5UtVv7GHE3R44EyeqY4YrFiXKJBWd9ha",
+  "txId": "2JL6xweBoHMS4BoFgcAjdwrpuFKnFYCeFPaarmQS3pVHD8d3tPJF2WwNxBpttoCKCmmk1bTutebkCQRdkqdxVTRV"
+}

@@ -1,0 +1,28 @@
+{
+  "cluster": "mainnet-beta",
+  "live": true,
+  "pool": "9ua8bqsCBRmcDGrLWQGnDdccqzHaCQpaXjxYcjuAbECo",
+  "position": "EcsNSf4tqLDuKc1agm9R86gbVGf1T5j9EcD7gtcT5NzP",
+  "positionNft": "DAvaEkk9DGkUXcnF7yYBmm3MaNYbu7bSH1gmhkfH1zTh",
+  "tokenA": {
+    "mint": "AoPZi6gXYKArxUdAk5aGtYsq4XjRGpotq5xVkvkZr3dK",
+    "symbol": "AURA",
+    "ui": 16000000
+  },
+  "tokenB": {
+    "mint": "So11111111111111111111111111111111111111112",
+    "symbol": "SOL",
+    "ui": 0.17
+  },
+  "initSqrtPrice": "1901449004141225",
+  "liquidityDelta": "30423184066260330159812026105416",
+  "priceSolPerAura": 1.0625000000000001e-8,
+  "impliedFdvSol": 10.625,
+  "feeBps": 25,
+  "locked": true,
+  "app": "https://app.meteora.ag/pools/9ua8bqsCBRmcDGrLWQGnDdccqzHaCQpaXjxYcjuAbECo",
+  "explorerPool": "https://explorer.solana.com/address/9ua8bqsCBRmcDGrLWQGnDdccqzHaCQpaXjxYcjuAbECo",
+  "signature": "KGHzTpvkZikqP3kBY52o4pLcEBkezpryVmmdCENoeGwHLsnBU2tUMbJqxsiuo47FhJ7WH387vcfSQWp5f9tWKUo",
+  "explorerTx": "https://explorer.solana.com/tx/KGHzTpvkZikqP3kBY52o4pLcEBkezpryVmmdCENoeGwHLsnBU2tUMbJqxsiuo47FhJ7WH387vcfSQWp5f9tWKUo",
+  "createdAt": "2026-09-05T01:32:10.437Z"
+}

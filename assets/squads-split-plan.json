@@ -1,0 +1,45 @@
+{
+  "cluster": "mainnet-beta",
+  "live": false,
+  "multisigPda": "2eUecJWmcHvgnoaorZH1t1HGT694rZWEivLTTAnBK9Ao",
+  "vaultPda": "7G2KeyAbiTQf1GKZUKV8tszzggqzBtiAzUtPrNP6WQbS",
+  "vaultAta": "4FYx5WwDBavnpLo2H9sayNHLnrSHDwtnKe9n4HUNfYFt",
+  "balanceUi": 0,
+  "parts": [
+    {
+      "bucket": "community",
+      "wallet": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju",
+      "vestUi": 250000000,
+      "amountUi": 0,
+      "amountRaw": "0"
+    },
+    {
+      "bucket": "treasury",
+      "wallet": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY",
+      "vestUi": 200000000,
+      "amountUi": 0,
+      "amountRaw": "0"
+    },
+    {
+      "bucket": "ecosystem",
+      "wallet": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ",
+      "vestUi": 150000000,
+      "amountUi": 0,
+      "amountRaw": "0"
+    },
+    {
+      "bucket": "seasons",
+      "wallet": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ",
+      "vestUi": 98482883,
+      "amountUi": 0,
+      "amountRaw": "0"
+    },
+    {
+      "bucket": "team",
+      "wallet": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C",
+      "vestUi": 100000000,
+      "amountUi": 0,
+      "amountRaw": "0"
+    }
+  ]
+}

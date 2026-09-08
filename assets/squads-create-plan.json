@@ -1,0 +1,25 @@
+{
+  "cluster": "mainnet-beta",
+  "multisigPda": "9NqPHfMETgEWiA4WNh8PANLgL1f36rcKJQoFhcK8SWv2",
+  "vaultPda": "Eg6JF94HfYLTDrQFMKcoYbj11MWGy6w4sVzsiggavYuF",
+  "vaultIndex": 0,
+  "createKey": "6YJbCQ4cohjRxwozyxADPFqvgBpYmrbifCzkKYecGCWM",
+  "threshold": 2,
+  "configAuthority": null,
+  "members": [
+    {
+      "role": "payer",
+      "pubkey": "Gh8vjMdf71p7HcbZbeXcEFKg6kve6pwmiBggbJhK5roS"
+    },
+    {
+      "role": "team",
+      "pubkey": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C"
+    },
+    {
+      "role": "treasury",
+      "pubkey": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY"
+    }
+  ],
+  "vaultAta": "4VDCnzr2UYoFgaefVkaFEJKJVP3MT7z3K2J8e6gZo4Gn",
+  "dryRun": false
+}

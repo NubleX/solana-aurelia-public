@@ -1,0 +1,21 @@
+{
+  "network": "mainnet-beta",
+  "purpose": "Fund AURA LIQUIDITY for Meteora DAMM v2 AURA/SOL bootstrap (~0.20 SOL all-in)",
+  "from": "Gh8vjMdf71p7HcbZbeXcEFKg6kve6pwmiBggbJhK5roS",
+  "to": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P",
+  "lamports": 200000000,
+  "sol": 0.2,
+  "signature": "4QpnsM58yfeNK9zoBfe15kgcvDCRoQbhWCs1XzmbmiSQps5KwMxRMtrhnNvdxhJisg3Ly1g6nqbGd9XP3ERXxAJk",
+  "explorer": "https://explorer.solana.com/tx/4QpnsM58yfeNK9zoBfe15kgcvDCRoQbhWCs1XzmbmiSQps5KwMxRMtrhnNvdxhJisg3Ly1g6nqbGd9XP3ERXxAJk",
+  "fundedAt": "2026-04-05T01:09:20.000Z",
+  "balancesAfter": {
+    "payerSol": 0.40804756,
+    "liquiditySol": 0.2
+  },
+  "next": [
+    "Create Meteora DAMM v2 pool (UI or script with keys/liquidity.json)",
+    "Seed ~0.17 SOL + chosen AURA amount",
+    "Optional permanent lock / Burn & Earn",
+    "Record pool address in assets/deploy-result.json"
+  ]
+}

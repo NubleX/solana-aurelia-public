@@ -1,0 +1,53 @@
+{
+  "cluster": "mainnet-beta",
+  "mint": "AoPZi6gXYKArxUdAk5aGtYsq4XjRGpotq5xVkvkZr3dK",
+  "decimals": 9,
+  "totalSupply": 1000000000,
+  "metadataUri": "https://idarti.com/aurelia/chain/metadata.json",
+  "allocations": [
+    {
+      "bucket": "community",
+      "amount": 250000000,
+      "wallet": "AveLbGScDVyah9VpdjRJBXGYhm42xjYidzD7PbgeEUju"
+    },
+    {
+      "bucket": "liquidity",
+      "amount": 200000000,
+      "wallet": "EnGUbfDakK3gzMkA9QYow4duieusnFcHEYipKGthKS4P"
+    },
+    {
+      "bucket": "treasury",
+      "amount": 200000000,
+      "wallet": "HGf7V82B51i1eUybqLCC27fB1oYYHFoD8H28s6mcgJmY"
+    },
+    {
+      "bucket": "ecosystem",
+      "amount": 150000000,
+      "wallet": "AZbx1ndAwPuP21WBwWfLSiM6MevKfjZaa7fUHnReUJWJ"
+    },
+    {
+      "bucket": "seasons",
+      "amount": 100000000,
+      "wallet": "6n2V89NjCYNjnyxk9V8xiYGsuMX4pzwNTD23Uwa41LSQ"
+    },
+    {
+      "bucket": "team",
+      "amount": 100000000,
+      "wallet": "EjyrpYnwWX1baKTsnS7B55eGKGJzon8didBQ2ibVxF4C"
+    }
+  ],
+  "revokedMint": true,
+  "revokedFreeze": true,
+  "explorer": "https://explorer.solana.com/address/AoPZi6gXYKArxUdAk5aGtYsq4XjRGpotq5xVkvkZr3dK",
+  "meteora": {
+    "program": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+    "pool": "9ua8bqsCBRmcDGrLWQGnDdccqzHaCQpaXjxYcjuAbECo",
+    "position": "EcsNSf4tqLDuKc1agm9R86gbVGf1T5j9EcD7gtcT5NzP",
+    "seed": { "aura": 16000000, "sol": 0.17 },
+    "feeBps": 25,
+    "locked": true,
+    "signature": "KGHzTpvkZikqP3kBY52o4pLcEBkezpryVmmdCENoeGwHLsnBU2tUMbJqxsiuo47FhJ7WH387vcfSQWp5f9tWKUo",
+    "app": "https://app.meteora.ag/pools/9ua8bqsCBRmcDGrLWQGnDdccqzHaCQpaXjxYcjuAbECo",
+    "record": "assets/meteora-pool.json"
+  }
+}
